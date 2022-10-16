@@ -1,5 +1,7 @@
 package pl.edu.wszib.lab1.builder.autobuilder;
 
+import pl.edu.wszib.lab1.builder.MyRecord;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -16,10 +18,8 @@ public class Application {
                 .gender(Gender.MALE)
                 .address(address)
                 .build();
-
-//        Person.create();
-//        Person.male();
-//        Person.female();
         System.out.println(person);
+
+
     }
 }
